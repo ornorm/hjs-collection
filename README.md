@@ -1,4 +1,4 @@
-# Product Name
+# HSJ-COLLECTION
 > Collection related classes for the Hubrisjs javascript framework.
 
 Some command classes: ArrayMap, SparseArray, Bst, RingBuffer, Queue etc...
@@ -8,7 +8,7 @@ Some command classes: ArrayMap, SparseArray, Bst, RingBuffer, Queue etc...
 Node:
 
 ```sh
-npm install hjs-codec --save
+npm install hjs-collection --save
 ```
 
 ## Meta
