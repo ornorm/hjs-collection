@@ -10,9 +10,8 @@ Node:
 ```sh
 npm install hjs-collection --save
 ```
+## Contacts
 
-## Meta
+[Aime - abiendo@gmail.com](abiendo@gmail.com)
 
-Aime – abiendo@gmail.com
-
-Distributed under the MIT license. See ``LICENSE`` for more information.
+Distributed under the MIT license. See [``LICENSE``](./LICENSE.md) for more information.

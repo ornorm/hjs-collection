@@ -1,6 +1,6 @@
 {
   "name": "hjs-collection",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Collection classes",
   "main": "index.js",
   "directories": {
@@ -14,6 +14,16 @@
     "url": "git+https://github.com/ornorm/hjs-collection.git"
   },
   "keywords": [
+    "collection",
+    "list",
+    "queue",
+    "linked list",
+    "tree",
+    "map",
+    "bst",
+    "comparator",
+    "iterator",
+    "enumeration",
     "ArrayMap",
     "SparseArray",
     "BSTNode",
