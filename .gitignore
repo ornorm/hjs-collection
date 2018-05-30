@@ -59,3 +59,12 @@ typings/
 
 # package lock
 package-lock.json
+
+# Eclipse project
+.project
+
+# Idea .idea folder
+.idea
+
+# Ideaj .iml
+hjs-collection.iml
