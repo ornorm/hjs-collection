@@ -4,10 +4,17 @@
   "description": "Collection classes",
   "main": "index.js",
   "directories": {
+    "dist": "dist",
     "lib": "lib",
     "test": "test"
   },
   "scripts": {
+    "build": "npm run dist:bundle && npm run dist:node_module",
+    "dist:bundle": "NODE_ENV=production webpack --config ./webpack.config.js",
+    "dist:node_module": "npm run dist:node_module:index && npm run dist:node_module:lib",
+    "dist:node_module:index": "babel ./index.js --out-file ./dist/module/hjs-collection/index.js",
+    "dist:node_module:lib": "babel ./lib --out-dir ./dist/module/hjs-collection/lib",
+    "lint": "eslint 'lib/*.js' --fix",
     "test": "test"
   },
   "repository": {
@@ -59,6 +66,22 @@
   },
   "homepage": "https://github.com/ornorm/hjs-collection#readme",
   "dependencies": {
+    "babel-runtime": "^6.26.0",
     "hjs-core": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.4"
   }
 }
