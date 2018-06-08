@@ -1,0 +1,63 @@
+{
+  "name": "hjs-collection",
+  "version": "1.0.3",
+  "description": "Collection classes",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ornorm/hjs-collection.git"
+  },
+  "keywords": [
+    "collection",
+    "list",
+    "queue",
+    "linked list",
+    "tree",
+    "map",
+    "bst",
+    "comparator",
+    "iterator",
+    "enumeration",
+    "ArrayMap",
+    "SparseArray",
+    "BSTNode",
+    "BST",
+    "RingBuffer",
+    "Enumeration",
+    "Iterator",
+    "CircularIterator",
+    "Comparator",
+    "LinkedNode",
+    "LinkedListIterator",
+    "LinkedList",
+    "AbstractMap",
+    "AbstractQueue",
+    "Queue",
+    "HashtableEntry",
+    "Enumerator",
+    "Hashtable",
+    "HashMapEntry",
+    "HashMap",
+    "TraversalAction",
+    "TreeNodeIterator",
+    "TreeNode",
+    "MultiTreeNode",
+    "ArrayMultiTreeNode",
+    "LinkedMultiTreeNode"
+  ],
+  "author": "Aime Biendo <abiendo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ornorm/hjs-collection/issues"
+  },
+  "homepage": "https://github.com/ornorm/hjs-collection#readme",
+  "dependencies": {
+    "hjs-core": "^1.0.0"
+  }
+}
